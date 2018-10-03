@@ -10,11 +10,22 @@ Laravel package for handling Mailjet API v3 using this wrapper: <https://github.
 
 It also provides a mailjetTransport for [Laravel mail feature](https://laravel.com/docs/master/mail)
 
-**/!\ Install for Laravel 5.5 :hammer_and_wrench:**
+## To use this fork
+Add this repository into you composer.json
+```json
+"repositories": [
+  {
+    "type": "vcs",
+    "url": "https://github.com/ShaneXie/laravel-mailjet.git"
+  }
+]
+
+```
+**/!\ Install for Laravel/Lumen 5.7 :hammer_and_wrench:**
 
 into you composer.json:
 
-    "mailjet/laravel-mailjet": "dev-laravel5.5",
+    "mailjet/laravel-mailjet": "^2.7.0",
 
 ## Installation
 
