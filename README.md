@@ -21,11 +21,12 @@ Add this repository into you composer.json
 ]
 
 ```
-**/!\ Install for Laravel/Lumen 5.7 :hammer_and_wrench:**
-
-into you composer.json:
-
-    "mailjet/laravel-mailjet": "^2.7.0",
+**Version Table**  
+| package | laravel/lumen |  
+|---------|---------------|  
+| 2.7.0   | 5.7.*         |  
+| 2.6.0   | 5.6.*         |  
+| 1.0.0   | 5.4.*         |  
 
 ## Installation
 
